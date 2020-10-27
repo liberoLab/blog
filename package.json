@@ -1,0 +1,16 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "index.html",
+  "license": "MIT",
+  "private":true,
+  "scripts": {
+    "dev":"yarn workspace server start & yarn workspace client watch",
+    "serverstart":" yarn workspace server start",
+    "clientstart":" yarn workspace client start"
+  },
+  "workspaces": [
+    "server",
+    "client"
+  ]
+}
